@@ -169,23 +169,23 @@ com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView$14
  com.artifex.sonui.editor.NUIDocView$15
  com.artifex.sonui.editor.NUIDocView$16
- com.artifex.sonui.editor.NUIDocView$16$1
- com.artifex.sonui.editor.NUIDocView$16$1$1
  com.artifex.sonui.editor.NUIDocView$17
+ com.artifex.sonui.editor.NUIDocView$17$1
+ com.artifex.sonui.editor.NUIDocView$17$1$1
  com.artifex.sonui.editor.NUIDocView$18
- com.artifex.sonui.editor.NUIDocView$18$1
- com.artifex.sonui.editor.NUIDocView$18$2
- com.artifex.sonui.editor.NUIDocView$18$3
- com.artifex.sonui.editor.NUIDocView$18$3$1
- com.artifex.sonui.editor.NUIDocView$18$3$1$1
- com.artifex.sonui.editor.NUIDocView$18$3$1$1$1
- com.artifex.sonui.editor.NUIDocView$18$3$2
  com.artifex.sonui.editor.NUIDocView$19
+ com.artifex.sonui.editor.NUIDocView$19$1
+ com.artifex.sonui.editor.NUIDocView$19$2
+ com.artifex.sonui.editor.NUIDocView$19$3
+ com.artifex.sonui.editor.NUIDocView$19$3$1
+ com.artifex.sonui.editor.NUIDocView$19$3$1$1
+ com.artifex.sonui.editor.NUIDocView$19$3$1$1$1
+ com.artifex.sonui.editor.NUIDocView$19$3$2
  com.artifex.sonui.editor.NUIDocView$2
  com.artifex.sonui.editor.NUIDocView$2$1
  com.artifex.sonui.editor.NUIDocView$20
- com.artifex.sonui.editor.NUIDocView$20$1
  com.artifex.sonui.editor.NUIDocView$21
+ com.artifex.sonui.editor.NUIDocView$21$1
  com.artifex.sonui.editor.NUIDocView$22
  com.artifex.sonui.editor.NUIDocView$23
  com.artifex.sonui.editor.NUIDocView$24
@@ -197,11 +197,12 @@ com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView$3
  com.artifex.sonui.editor.NUIDocView$30
  com.artifex.sonui.editor.NUIDocView$31
- com.artifex.sonui.editor.NUIDocView$31$1
  com.artifex.sonui.editor.NUIDocView$32
+ com.artifex.sonui.editor.NUIDocView$32$1
  com.artifex.sonui.editor.NUIDocView$33
  com.artifex.sonui.editor.NUIDocView$34
  com.artifex.sonui.editor.NUIDocView$35
+ com.artifex.sonui.editor.NUIDocView$36
  com.artifex.sonui.editor.NUIDocView$4
  com.artifex.sonui.editor.NUIDocView$5
  com.artifex.sonui.editor.NUIDocView$5$1
@@ -221,6 +222,8 @@ com/all/officereader/screens/custom_view/WheelAdapter.java
 com/all/officereader/screens/ocr/gallery/GalleryActivity.java
  com.all.officereader.screens.ocr.gallery.GalleryActivity
  com.all.officereader.screens.ocr.gallery.GalleryActivity$1
+com/artifex/sonui/NUIPopupWindow.java
+ com.artifex.sonui.NUIPopupWindow
 com/all/officereader/helpers/bases/animation/BaseCreative.java
  com.all.officereader.helpers.bases.animation.BaseCreative
 com/all/officereader/screens/dialogs/DialogLoading.java
@@ -315,6 +318,10 @@ com/all/officereader/screens/fragments/FileReaderPptFragment.java
  com.all.officereader.screens.fragments.FileReaderPptFragment$1
 com/all/officereader/screens/custom_view/OnWheelClickedListener.java
  com.all.officereader.screens.custom_view.OnWheelClickedListener
+com/artifex/sonui/color/ColorDialogCp.java
+ com.artifex.sonui.color.ColorDialogCp
+ com.artifex.sonui.color.ColorDialogCp$1
+ com.artifex.sonui.color.ColorDialogCp$2
 com/artifex/sonui/FileBrowser.java
  com.artifex.sonui.FileBrowser
  com.artifex.sonui.FileBrowser$1
@@ -347,12 +354,16 @@ com/all/officereader/helpers/bubblenavigation/BubbleNavigationLinearView.java
  com.all.officereader.helpers.bubblenavigation.BubbleNavigationLinearView$1
 com/all/officereader/helpers/callbacks/DialogSelectionListener.java
  com.all.officereader.helpers.callbacks.DialogSelectionListener
+com/artifex/sonui/interfaces/OnActionCallback.java
+ com.artifex.sonui.interfaces.OnActionCallback
 com/all/officereader/helpers/bases/animation/MoveAnimation.java
  com.all.officereader.helpers.bases.animation.MoveAnimation
  com.all.officereader.helpers.bases.animation.MoveAnimation$1
  com.all.officereader.helpers.bases.animation.MoveAnimation$2
  com.all.officereader.helpers.bases.animation.MoveAnimation$3
  com.all.officereader.helpers.bases.animation.MoveAnimation$4
+com/artifex/FontItem.java
+ com.artifex.FontItem
 android/supportv1/v7/appcompat/R.java
  android.supportv1.v7.appcompat.R
  android.supportv1.v7.appcompat.R$anim
@@ -388,6 +399,8 @@ com/all/officereader/screens/activities/CreateFileActivity.java
 com/all/officereader/screens/activities/SplashActivity.java
  com.all.officereader.screens.activities.SplashActivity
  com.all.officereader.screens.activities.SplashActivity$1
+com/all/officereader/adapter/FontAdapter.java
+ com.all.officereader.adapter.FontAdapter
 com/all/officereader/adapter/BookmarkAdapter.java
  com.all.officereader.adapter.BookmarkAdapter
  com.all.officereader.adapter.BookmarkAdapter$FileViewHolder
@@ -557,3 +570,5 @@ com/all/officereader/helpers/bases/animation/AlphaAnimator.java
  com.all.officereader.helpers.bases.animation.AlphaAnimator$5
 com/all/officereader/screens/ocr/model/CameraModel.java
  com.all.officereader.screens.ocr.model.CameraModel
+com/artifex/sonui/interfaces/SaveAndAdsListener.java
+ com.artifex.sonui.interfaces.SaveAndAdsListener

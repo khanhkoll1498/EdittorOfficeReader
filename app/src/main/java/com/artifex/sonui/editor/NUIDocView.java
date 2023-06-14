@@ -2,19 +2,19 @@ package com.artifex.sonui.editor;
 
 import android.Manifest;
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.app.AlertDialog.Builder;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnShowListener;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;
+import android.graphics.PorterDuff.Mode;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.graphics.PorterDuff.Mode;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
@@ -31,13 +31,14 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
-import android.view.Window;
-import android.view.View.OnClickListener;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
+import android.view.Window;
 import android.view.inputmethod.EditorInfo;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -47,12 +48,11 @@ import android.widget.ListAdapter;
 import android.widget.ListPopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TabHost;
+import android.widget.TabHost.OnTabChangeListener;
+import android.widget.TabHost.TabSpec;
 import android.widget.TabWidget;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.TabHost.OnTabChangeListener;
-import android.widget.TabHost.TabSpec;
 import android.widget.ViewAnimator;
 
 import androidx.appcompat.widget.AppCompatImageView;
@@ -70,6 +70,7 @@ import com.artifex.solib.SOSelectionLimits;
 import com.artifex.solib.j;
 import com.artifex.solib.k;
 import com.artifex.solib.p;
+import com.artifex.sonui.color.ColorDialogCp;
 import com.artifex.sonui.editor.AuthorDialog.AuthorDialogListener;
 import com.artifex.sonui.editor.NUIView.OnDoneListener;
 import com.artifex.sonui.editor.R.color;
@@ -81,6 +82,7 @@ import com.artifex.sonui.editor.R.layout;
 import com.artifex.sonui.editor.R.string;
 import com.artifex.sonui.editor.R.style;
 import com.artifex.sonui.editor.SODocSession.SODocSessionLoadListener;
+import com.artifex.sonui.interfaces.SaveAndAdsListener;
 
 import java.io.File;
 import java.io.IOException;
@@ -175,7 +177,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     protected ImageView mRedoButton;
 
     protected LinearLayout mSaveAsButton;
-    protected ImageView mSaveButton;
+    protected LinearLayout mSaveButton;
     protected LinearLayout mSavePdfButton;
     protected LinearLayout mPrintButton;
 
@@ -211,6 +213,9 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     protected ConstraintLayout viewSearch;
     protected ImageView searchBtn;
     private ImageView expandEditBar;
+    private ImageView saveEdit;
+
+    protected SaveAndAdsListener saveAndAdsListener;
 
     public NUIDocView(Context var1) {
         super(var1);
@@ -1254,7 +1259,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
 //            }
 //        });
 
-        this.mSaveButton = (ImageView) this.createToolbarButton(id.save_button);
+        this.saveEdit = this.findViewById(com.all.officereader.R.id.saveEdit);
+        setSaveClick();
+
+        this.mSaveButton = (LinearLayout) this.createToolbarButton(id.save_button);
         this.mSaveAsButton = (LinearLayout) this.createToolbarButton(id.save_as_button);
         this.mSavePdfButton = (LinearLayout) this.createToolbarButton(id.save_pdf_button);
         this.mPrintButton = (LinearLayout) this.createToolbarButton(id.print_button);
@@ -1617,6 +1625,49 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             this.scaleHeader();
         }
 
+    }
+
+    private void setSaveClick() {
+        this.saveEdit.setOnClickListener(v -> {
+            this.post(() -> {
+                if (NUIDocView.this.T) {
+                    if (NUIDocView.this.mSession.getDoc() != null) {
+                        NUIDocView.this.mSession.getDoc().a(f.getOpenedPath(), (var11, var21) -> {
+                            if (var11 == 0) {
+                                NUIDocView.this.f.saveFile();
+                                if (NUIDocView.this.n != null) {
+                                    NUIDocView.this.n.postSaveHandler(new SOSaveAsComplete() {
+                                        public void onComplete(int var1, String var2) {
+                                            NUIDocView.this.f.closeFile();
+                                            NUIDocView.this.prefinish();
+                                        }
+                                    });
+                                } else {
+                                    NUIDocView.this.f.closeFile();
+                                    NUIDocView.this.prefinish();
+                                }
+
+                                normalToolbar.setVisibility(View.VISIBLE);
+                                viewAnimator.setVisibility(View.GONE);
+                                viewToolbarEdit.setVisibility(View.GONE);
+
+                                Toast.makeText(activity(), "Save success", Toast.LENGTH_SHORT).show();
+                            } else {
+                                saveError(var21);
+                            }
+                        });
+                    }
+
+                }
+
+            });
+        });
+    }
+
+    public void saveError(int i1) {
+        NUIDocView.this.f.closeFile();
+        String var3 = String.format(NUIDocView.this.activity().getString(string.sodk_editor_error_saving_document_code), i1);
+        Utilities.showMessage(NUIDocView.this.activity(), NUIDocView.this.activity().getString(string.sodk_editor_error), var3);
     }
 
     private void setViewAnimatorChange() {
@@ -2732,7 +2783,7 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             }
 
             if (var1 == this.C) {
-                this.onTapFontName(var1);
+                this.onTapFontSize(var1);
             }
 
             if (var1 == this.fontNameText) {
@@ -2867,6 +2918,10 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
             }
 
         }
+    }
+
+    public void onTapFontSize(View var1) {
+        EditFont.showFontSize(this.getContext(), var1, this.mSession.getDoc());
     }
 
     public void onConfigurationChange(Configuration var1) {
@@ -3026,7 +3081,17 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onFontBackgroundButton(View var1) {
-        (new ColorDialog(2, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+//        (new ColorDialog(2, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+//            public void onColorChanged(String var1) {
+//                if (var1.equals("transparent")) {
+//                    NUIDocView.this.mSession.getDoc().setSelectionBackgroundTransparent();
+//                } else {
+//                    NUIDocView.this.mSession.getDoc().setSelectionBackgroundColor(var1);
+//                }
+//
+//            }
+//        })).show();
+        (new ColorDialogCp(2, this.getContext(), this.mSession.getDoc(), var1, new ColorChangedListener() {
             public void onColorChanged(String var1) {
                 if (var1.equals("transparent")) {
                     NUIDocView.this.mSession.getDoc().setSelectionBackgroundTransparent();
@@ -3039,11 +3104,18 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onFontColorButton(View var1) {
-        (new ColorDialog(1, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+//        (new ColorDialog(1, this.getContext(), this.mSession.getDoc(), this.i, new ColorChangedListener() {
+//            public void onColorChanged(String var1) {
+//                NUIDocView.this.mSession.getDoc().setSelectionFontColor(var1);
+//            }
+//        })).show();
+
+        (new ColorDialogCp(1, this.getContext(), this.mSession.getDoc(), var1, new ColorChangedListener() {
             public void onColorChanged(String var1) {
                 NUIDocView.this.mSession.getDoc().setSelectionFontColor(var1);
             }
         })).show();
+
     }
 
     public void onFontDownButton(View var1) {
@@ -3701,7 +3773,8 @@ public class NUIDocView extends FrameLayout implements OnClickListener, OnTabCha
     }
 
     public void onTapFontName(View var1) {
-        EditFont.show(this.getContext(), var1, this.getDoc());
+//        EditFont.show(this.getContext(), var1, this.getDoc());
+        EditFont.showFontName(this.getContext(), var1, this.getDoc());
     }
 
     public void onTyping() {

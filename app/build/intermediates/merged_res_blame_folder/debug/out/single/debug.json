@@ -132,6 +132,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_edit_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_select_font_1.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_select_font_1.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_align_center.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_align_center.xml"
     },
@@ -1230,6 +1234,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_title_top.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\background_title_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_menu_popup_font_item.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_menu_popup_font_item.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_color_shape_one.xml.flat",
