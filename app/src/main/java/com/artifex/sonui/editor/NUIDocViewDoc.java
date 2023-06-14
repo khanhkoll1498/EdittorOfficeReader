@@ -24,6 +24,8 @@ public class NUIDocViewDoc extends NUIDocView {
     private ToolbarButton i;
     private ToolbarButton j;
 
+    private TabData[] D = null;
+
     public NUIDocViewDoc(Context var1) {
         super(var1);
         this.a(var1);
@@ -76,6 +78,28 @@ public class NUIDocViewDoc extends NUIDocView {
             }, (Runnable)null);
         }
 
+    }
+
+    public NUIDocView.TabData[] getTabData() {
+        if (this.D == null) {
+            this.D = new NUIDocView.TabData[2];
+            if (this.mConfigOptions.c()) {
+                NUIDocView.TabData[] tabDataArr = this.D;
+                NUIDocView.TabData tabData = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_left, 0);
+                tabDataArr[0] = tabData;
+                NUIDocView.TabData[] tabDataArr2 = this.D;
+                NUIDocView.TabData tabData2 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 0);
+                tabDataArr2[1] = tabData2;
+            } else {
+                NUIDocView.TabData[] tabDataArr6 = this.D;
+                NUIDocView.TabData tabData6 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_file), R.id.fileTab, R.layout.sodk_editor_tab_one, 0);
+                tabDataArr6[0] = tabData6;
+                NUIDocView.TabData[] tabDataArr7 = this.D;
+                NUIDocView.TabData tabData7 = new NUIDocView.TabData(getContext().getString(R.string.sodk_editor_tab_edit), R.id.editTab, R.layout.sodk_editor_tab, 8);
+                tabDataArr7[1] = tabData7;
+            }
+        }
+        return this.D;
     }
 
     private void b(boolean var1) {
@@ -149,6 +173,8 @@ public class NUIDocViewDoc extends NUIDocView {
 
             ToolbarButton.setAllSameSize((ToolbarButton[])var1.toArray(new ToolbarButton[var1.size()]));
         }
+
+        findViewById(com.all.officereader.R.id.bt_tool).setOnClickListener(this::onTapTool);
     }
 
     public int getBorderColor() {

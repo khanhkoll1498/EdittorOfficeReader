@@ -159,7 +159,6 @@ com/all/officereader/helpers/utils/PathFileUtil.java
 com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView
  com.artifex.sonui.editor.NUIDocView$1
- com.artifex.sonui.editor.NUIDocView$1$1
  com.artifex.sonui.editor.NUIDocView$10
  com.artifex.sonui.editor.NUIDocView$11
  com.artifex.sonui.editor.NUIDocView$12
@@ -167,24 +166,25 @@ com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView$12$2
  com.artifex.sonui.editor.NUIDocView$12$3
  com.artifex.sonui.editor.NUIDocView$13
- com.artifex.sonui.editor.NUIDocView$13$1
- com.artifex.sonui.editor.NUIDocView$13$1$1
  com.artifex.sonui.editor.NUIDocView$14
  com.artifex.sonui.editor.NUIDocView$15
- com.artifex.sonui.editor.NUIDocView$15$1
- com.artifex.sonui.editor.NUIDocView$15$2
- com.artifex.sonui.editor.NUIDocView$15$3
- com.artifex.sonui.editor.NUIDocView$15$3$1
- com.artifex.sonui.editor.NUIDocView$15$3$1$1
- com.artifex.sonui.editor.NUIDocView$15$3$1$1$1
- com.artifex.sonui.editor.NUIDocView$15$3$2
  com.artifex.sonui.editor.NUIDocView$16
+ com.artifex.sonui.editor.NUIDocView$16$1
+ com.artifex.sonui.editor.NUIDocView$16$1$1
  com.artifex.sonui.editor.NUIDocView$17
- com.artifex.sonui.editor.NUIDocView$17$1
  com.artifex.sonui.editor.NUIDocView$18
+ com.artifex.sonui.editor.NUIDocView$18$1
+ com.artifex.sonui.editor.NUIDocView$18$2
+ com.artifex.sonui.editor.NUIDocView$18$3
+ com.artifex.sonui.editor.NUIDocView$18$3$1
+ com.artifex.sonui.editor.NUIDocView$18$3$1$1
+ com.artifex.sonui.editor.NUIDocView$18$3$1$1$1
+ com.artifex.sonui.editor.NUIDocView$18$3$2
  com.artifex.sonui.editor.NUIDocView$19
  com.artifex.sonui.editor.NUIDocView$2
+ com.artifex.sonui.editor.NUIDocView$2$1
  com.artifex.sonui.editor.NUIDocView$20
+ com.artifex.sonui.editor.NUIDocView$20$1
  com.artifex.sonui.editor.NUIDocView$21
  com.artifex.sonui.editor.NUIDocView$22
  com.artifex.sonui.editor.NUIDocView$23
@@ -193,19 +193,22 @@ com/artifex/sonui/editor/NUIDocView.java
  com.artifex.sonui.editor.NUIDocView$26
  com.artifex.sonui.editor.NUIDocView$27
  com.artifex.sonui.editor.NUIDocView$28
- com.artifex.sonui.editor.NUIDocView$28$1
  com.artifex.sonui.editor.NUIDocView$29
  com.artifex.sonui.editor.NUIDocView$3
  com.artifex.sonui.editor.NUIDocView$30
  com.artifex.sonui.editor.NUIDocView$31
+ com.artifex.sonui.editor.NUIDocView$31$1
  com.artifex.sonui.editor.NUIDocView$32
+ com.artifex.sonui.editor.NUIDocView$33
+ com.artifex.sonui.editor.NUIDocView$34
+ com.artifex.sonui.editor.NUIDocView$35
  com.artifex.sonui.editor.NUIDocView$4
- com.artifex.sonui.editor.NUIDocView$4$1
- com.artifex.sonui.editor.NUIDocView$4$1$1
- com.artifex.sonui.editor.NUIDocView$4$2
  com.artifex.sonui.editor.NUIDocView$5
  com.artifex.sonui.editor.NUIDocView$5$1
+ com.artifex.sonui.editor.NUIDocView$5$1$1
+ com.artifex.sonui.editor.NUIDocView$5$2
  com.artifex.sonui.editor.NUIDocView$6
+ com.artifex.sonui.editor.NUIDocView$6$1
  com.artifex.sonui.editor.NUIDocView$7
  com.artifex.sonui.editor.NUIDocView$8
  com.artifex.sonui.editor.NUIDocView$9

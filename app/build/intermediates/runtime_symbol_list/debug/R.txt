@@ -3511,6 +3511,7 @@ int drawable belvedere_toolbar_shadow 0x7f0800b4
 int drawable bg_ads_button 0x7f0800b5
 int drawable bg_back_donate 0x7f0800b6
 int drawable bg_back_edit_file 0x7f0800b7
+int drawable bg_bold 0x7f080326
 int drawable bg_border_ads 0x7f0800b8
 int drawable bg_border_bottom 0x7f0800b9
 int drawable bg_border_cancel 0x7f0800ba
@@ -3551,6 +3552,7 @@ int drawable bg_intro 0x7f0800dc
 int drawable bg_intro_one 0x7f0800dd
 int drawable bg_intro_three 0x7f0800de
 int drawable bg_intro_two 0x7f0800df
+int drawable bg_italic 0x7f080327
 int drawable bg_item_rcv 0x7f0800e0
 int drawable bg_item_rcv_file 0x7f0800e1
 int drawable bg_main_donate 0x7f0800e2
@@ -3583,6 +3585,7 @@ int drawable bg_send 0x7f0800fc
 int drawable bg_stroke_btn_ads 0x7f0800fd
 int drawable bg_submit_intro 0x7f0800fe
 int drawable bg_top_rate_app 0x7f0800ff
+int drawable bg_underline 0x7f080328
 int drawable bg_unselected_home 0x7f080100
 int drawable bg_update_version_shape 0x7f080101
 int drawable bg_view_ads 0x7f080102
@@ -3644,6 +3647,7 @@ int drawable design_ic_visibility_off 0x7f080139
 int drawable design_password_eye 0x7f08013a
 int drawable design_snackbar_background 0x7f08013b
 int drawable donate_vector 0x7f08013c
+int drawable drop_down 0x7f080329
 int drawable file_search_bg 0x7f08013d
 int drawable filter_night_mode 0x7f08013e
 int drawable googleg_disabled_color_18 0x7f08013f
@@ -3667,6 +3671,7 @@ int drawable ic_bookmark_main 0x7f080150
 int drawable ic_bookmark_tab 0x7f080151
 int drawable ic_calendar_black_24dp 0x7f080152
 int drawable ic_cancel_main 0x7f080153
+int drawable ic_cancel_text 0x7f08032a
 int drawable ic_check_white_24dp 0x7f080154
 int drawable ic_circle 0x7f080155
 int drawable ic_clear_black_24dp 0x7f080156
@@ -3689,6 +3694,7 @@ int drawable ic_donate_selected 0x7f080166
 int drawable ic_donate_white 0x7f080167
 int drawable ic_dots 0x7f080168
 int drawable ic_download 0x7f080169
+int drawable ic_drop_down2 0x7f08032b
 int drawable ic_edit_black_24dp 0x7f08016a
 int drawable ic_edit_ocr 0x7f08016b
 int drawable ic_edit_pro 0x7f08016c
@@ -3706,12 +3712,22 @@ int drawable ic_floating_selected 0x7f080177
 int drawable ic_folder_black_24dp 0x7f080178
 int drawable ic_folder_item 0x7f080179
 int drawable ic_folder_open_black_24dp 0x7f08017a
+int drawable ic_format_color_text 0x7f08032c
 int drawable ic_gift_download 0x7f08017b
 int drawable ic_gift_main 0x7f08017c
 int drawable ic_gift_main_2 0x7f08017d
 int drawable ic_gift_main_selected 0x7f08017e
 int drawable ic_gift_main_selected_2 0x7f08017f
 int drawable ic_gift_star 0x7f080180
+int drawable ic_icon_close 0x7f08032d
+int drawable ic_icon_color 0x7f08032e
+int drawable ic_icon_keyboard_edit 0x7f08032f
+int drawable ic_icon_left 0x7f080330
+int drawable ic_icon_redo 0x7f080331
+int drawable ic_icon_right 0x7f080332
+int drawable ic_icon_save 0x7f080333
+int drawable ic_icon_search 0x7f080334
+int drawable ic_icon_undo 0x7f080335
 int drawable ic_info_outline_black_24dp 0x7f080181
 int drawable ic_info_outline_white_24dp 0x7f080182
 int drawable ic_insert_drive_file 0x7f080183
@@ -3781,6 +3797,7 @@ int drawable icon_button_favorite 0x7f0801c2
 int drawable icon_button_search 0x7f0801c3
 int drawable icon_button_settings_view_pdf 0x7f0801c4
 int drawable icon_cancel 0x7f0801c5
+int drawable icon_paste 0x7f080336
 int drawable icon_pause 0x7f0801c6
 int drawable icon_pdf 0x7f0801c7
 int drawable icon_play 0x7f0801c8
@@ -4036,8 +4053,14 @@ int drawable sodk_explorer_template_selector 0x7f0802c1
 int drawable sodk_file_browser_bg 0x7f0802c2
 int drawable sodk_iap_buy_button_bg 0x7f0802c3
 int drawable sodk_iap_upgrade_button_bg 0x7f0802c4
+int drawable sodk_ic_icon_bold 0x7f080337
+int drawable sodk_ic_icon_bold_selected 0x7f080338
+int drawable sodk_ic_icon_italic 0x7f080339
+int drawable sodk_ic_icon_italic_selected 0x7f08033a
 int drawable sodk_ic_icon_lock 0x7f0802c5
 int drawable sodk_ic_icon_nui_close 0x7f0802c6
+int drawable sodk_ic_icon_underline 0x7f08033b
+int drawable sodk_ic_icon_underline_selected 0x7f08033c
 int drawable sodk_icon_back 0x7f0802c7
 int drawable sodk_icon_delete_doc 0x7f0802c8
 int drawable sodk_icon_duplicate_doc 0x7f0802c9
@@ -4331,6 +4354,7 @@ int id browser_actions_menu_item_text 0x7f0a00bf
 int id browser_actions_menu_items 0x7f0a00c0
 int id browser_actions_menu_view 0x7f0a00c1
 int id bt_container 0x7f0a00c2
+int id bt_tool 0x7f0a058b
 int id btn_dialog_fake_full_ads__remove_ads 0x7f0a00c3
 int id btn_dialog_feedback_send 0x7f0a00c4
 int id btn_dialog_internet_cancel 0x7f0a00c5
@@ -4367,8 +4391,10 @@ int id calligraphy 0x7f0a00e3
 int id camera 0x7f0a00e4
 int id camera1 0x7f0a00e5
 int id camera2 0x7f0a00e6
+int id cancelSearch 0x7f0a058c
 int id cancel_action 0x7f0a00e7
 int id cancel_button 0x7f0a00e8
+int id cancel_edit 0x7f0a058d
 int id category_title 0x7f0a00e9
 int id cell_height_box 0x7f0a00ea
 int id cell_height_down_button 0x7f0a00eb
@@ -4400,6 +4426,7 @@ int id clamp 0x7f0a0104
 int id clear_text 0x7f0a0105
 int id clip_horizontal 0x7f0a0106
 int id clip_vertical 0x7f0a0107
+int id closeSearch 0x7f0a058e
 int id cloudy 0x7f0a0108
 int id collapseActionView 0x7f0a0109
 int id color_dialog_title 0x7f0a010a
@@ -4478,6 +4505,7 @@ int id dialog_button 0x7f0a0152
 int id dimensions 0x7f0a0153
 int id dir_path 0x7f0a0154
 int id direct 0x7f0a0155
+int id directionSearch 0x7f0a058f
 int id disableHome 0x7f0a0156
 int id disablePostScroll 0x7f0a0157
 int id disableScroll 0x7f0a0158
@@ -4542,6 +4570,7 @@ int id excel_edit_toolbar 0x7f0a0192
 int id excel_sheets_bar 0x7f0a0193
 int id exitUntilCollapsed 0x7f0a0194
 int id expand_activities_button 0x7f0a0195
+int id expand_edit_bar 0x7f0a0590
 int id expanded_menu 0x7f0a0196
 int id expires_on 0x7f0a0197
 int id expires_on_header 0x7f0a0198
@@ -4826,7 +4855,9 @@ int id list_item_selectable 0x7f0a02ae
 int id list_item_static_click_area 0x7f0a02af
 int id list_item_static_image 0x7f0a02b0
 int id list_numbers_button 0x7f0a02b1
+int id ll_more_edit 0x7f0a0591
 int id ll_native_content 0x7f0a02b2
+int id ll_tool 0x7f0a0592
 int id ln_back_filter 0x7f0a02b3
 int id ln_banner 0x7f0a02b4
 int id ln_copy 0x7f0a02b5
@@ -4868,6 +4899,7 @@ int id lotView_activity_main__search 0x7f0a02d8
 int id lottie_layer_name 0x7f0a02d9
 int id lv_layout_list_search_from_text__list_search 0x7f0a02da
 int id main_explorer_layout 0x7f0a02db
+int id main_topbar 0x7f0a0593
 int id masked 0x7f0a02dc
 int id media_actions 0x7f0a02dd
 int id menu 0x7f0a02de
@@ -4935,6 +4967,7 @@ int id native_icon_view 0x7f0a031b
 int id nav_view 0x7f0a031c
 int id navigation_header_container 0x7f0a031d
 int id never 0x7f0a031e
+int id nextSearch 0x7f0a0594
 int id next_button 0x7f0a031f
 int id next_link_button 0x7f0a0320
 int id noScroll 0x7f0a0321
@@ -4942,6 +4975,8 @@ int id no_documents_found 0x7f0a0322
 int id no_recent_documents_found 0x7f0a0323
 int id none 0x7f0a0324
 int id normal 0x7f0a0325
+int id normalToolbar 0x7f0a0595
+int id notSearch 0x7f0a0596
 int id not_show 0x7f0a0326
 int id note_button 0x7f0a0327
 int id note_holder 0x7f0a0328
@@ -4999,6 +5034,7 @@ int id postLayout 0x7f0a035b
 int id ppt_format_toolbar 0x7f0a035c
 int id ppt_insert_toolbar 0x7f0a035d
 int id ppt_slides_toolbar 0x7f0a035e
+int id prevSearch 0x7f0a0597
 int id preview_copy_button 0x7f0a035f
 int id preview_delete_button 0x7f0a0360
 int id preview_file_size_icon 0x7f0a0361
@@ -5186,6 +5222,8 @@ int id scrollIndicatorDown 0x7f0a0416
 int id scrollIndicatorUp 0x7f0a0417
 int id scrollView 0x7f0a0418
 int id scrollable 0x7f0a0419
+int id searchBar 0x7f0a0598
+int id searchBtn 0x7f0a0599
 int id searchTab 0x7f0a041a
 int id search_badge 0x7f0a041b
 int id search_bar 0x7f0a041c
@@ -5219,6 +5257,7 @@ int id shimmer_gg_container 0x7f0a0437
 int id shortcut 0x7f0a0438
 int id showCustom 0x7f0a0439
 int id showHome 0x7f0a043a
+int id showKeyboard 0x7f0a059a
 int id showTitle 0x7f0a043b
 int id show_always 0x7f0a043c
 int id show_annot_button 0x7f0a043d
@@ -5288,6 +5327,7 @@ int id surface 0x7f0a047c
 int id surface_view 0x7f0a047d
 int id surface_view_root 0x7f0a047e
 int id sw_pdf_view_activity__on_of_night_mode 0x7f0a047f
+int id switcher 0x7f0a059b
 int id tabMode 0x7f0a0480
 int id tabText 0x7f0a0481
 int id tab__main_activity__bookmark 0x7f0a0482
@@ -5403,6 +5443,7 @@ int id tv_skip 0x7f0a04ef
 int id tv_storage 0x7f0a04f0
 int id tv_submit 0x7f0a04f1
 int id tv_template 0x7f0a04f2
+int id tv_tool 0x7f0a059c
 int id tv_txt_file 0x7f0a04f3
 int id tv_value 0x7f0a04f4
 int id txt_item_file_manager__date 0x7f0a04f5
@@ -5441,6 +5482,7 @@ int id txv_popup_scan_file__processbar 0x7f0a0515
 int id txv_popup_scan_file__title 0x7f0a0516
 int id unchecked 0x7f0a0517
 int id underline_button 0x7f0a0518
+int id undoOrRedo 0x7f0a059d
 int id undo_button 0x7f0a0519
 int id uniform 0x7f0a051a
 int id unlabeled 0x7f0a051b
@@ -5462,6 +5504,8 @@ int id vertical_ruler 0x7f0a052a
 int id video 0x7f0a052b
 int id view 0x7f0a052c
 int id viewPagerPdfViewer 0x7f0a052d
+int id viewSearch 0x7f0a059e
+int id viewToolbarEdit 0x7f0a059f
 int id view_article_attachment_coordinator 0x7f0a052e
 int id view_article_attachment_list 0x7f0a052f
 int id view_article_compat_shadow 0x7f0a0530

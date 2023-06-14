@@ -4,7 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
+import android.widget.ViewAnimator;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.artifex.sonui.AppNUIActivity;
@@ -88,6 +92,15 @@ public class ViewEditorActivity extends AppNUIActivity {
                 e.printStackTrace();
             }
         }
+
+        ViewAnimator viewAnimator = findViewById(R.id.switcher);
+        RelativeLayout normalToolbar = findViewById(R.id.normalToolbar);
+        ConstraintLayout viewToolbarEdit = findViewById(R.id.viewToolbarEdit);
+        findViewById(R.id.cancel_edit).setOnClickListener(v -> {
+            normalToolbar.setVisibility(View.VISIBLE);
+            viewAnimator.setVisibility(View.GONE);
+            viewToolbarEdit.setVisibility(View.GONE);
+        });
     }
 
     @Override

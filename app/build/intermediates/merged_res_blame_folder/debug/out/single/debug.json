@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_select.png.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_select.png"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\menu_zui_message_options_copy_retry_delete.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\menu\\zui_message_options_copy_retry_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_select.png.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_select.png"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_create_file_bottom.png.flat",
@@ -18,6 +18,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_slide_show.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_slide_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_bold.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_bold.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
@@ -48,16 +52,16 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_folder_item.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zui_ic_insert_drive_file.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zui_ic_insert_drive_file.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_take_picture.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_take_picture.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zui_ic_insert_drive_file.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zui_ic_insert_drive_file.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_belvedere_floating_action_menu_item.xml.flat",
@@ -84,12 +88,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\xml\\belvedere_attachment_storage_v2.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_dialog_light.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_dialog_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_shape_arrow1.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_shape_arrow1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_dialog_light.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_dialog_light.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_more.png.flat",
@@ -100,12 +104,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_align_right.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_icon_find.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_icon_find.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_reader_tab.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_reader_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_icon_find.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_icon_find.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_insert_column_left.xml.flat",
@@ -168,20 +172,24 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_pdf_document.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_white.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_white.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_white.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_white.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zui_ic_attach_file.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zui_ic_attach_file.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_ppt.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\menu_ppt.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zui_ic_attach_file.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zui_ic_attach_file.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_color.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_color.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_ocr_image.xml.flat",
@@ -268,16 +276,16 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_reflect_ocr.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_file_grid_wrapper.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_file_grid_wrapper.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_top_rate_app.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_top_rate_app.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_checkbox.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\custom_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_top_rate_app.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_top_rate_app.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_file_grid_wrapper.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_file_grid_wrapper.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_excel.png.flat",
@@ -300,16 +308,16 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_icon_delete_doc.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\anim\\abc_tooltip_enter.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sodk_editor_icon_tab_menu.png.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sodk_editor_icon_tab_menu.png"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_delete_doc.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_delete_doc.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sodk_editor_icon_tab_menu.png.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sodk_editor_icon_tab_menu.png"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\anim\\abc_tooltip_enter.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_zui_view_article.xml.flat",
@@ -324,12 +332,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_sort_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_icon_metadata_filesize.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_icon_metadata_filesize.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
@@ -376,12 +384,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\ic_create_ads.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_tab_bg.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_tab_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_sort_button.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_sort_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_explorer_tab_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_tab_bg.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sodk_icon_play_slideshow.png.flat",
@@ -412,12 +420,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\layout_edit_in_pdf_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_password_prompt.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_password_prompt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storage_tab.png.flat",
@@ -556,20 +564,20 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\ic_create_office.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_search_from_text.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\list_search_from_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_shape_square.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_shape_square.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_tab_left.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_tab_left.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_shape_square.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_shape_square.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_search_from_text.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\list_search_from_text.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_accept_change.xml.flat",
@@ -592,12 +600,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_toggle_off.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zs_request_icon_back.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zs_request_icon_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_create_slide.png.flat",
@@ -632,12 +640,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sodk_editor_icon_find_previous.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blue_transparent.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\circle_blue_transparent.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_zui_view_article_suggestion.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\zui_view_article_suggestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blue_transparent.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\circle_blue_transparent.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_zui_view_response_options_content.xml.flat",
@@ -744,12 +752,12 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_oval_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_hide_password.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\avd_hide_password.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_hide_password.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\avd_hide_password.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_main.png.flat",
@@ -782,6 +790,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_search_button.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_search_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_undo.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_undo.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_zui_cell_system_message.xml.flat",
@@ -836,24 +848,24 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sodk_editor_icon_line_style.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sodk_editor_icon_line_style.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_edt_content_feedback.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_edt_content_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_word_2.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_word_2.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_word_2.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_word_2.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bg_intro.png.flat",
@@ -872,16 +884,16 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\background_col_shape_six.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_powerpoint_slides_toolbar.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_powerpoint_slides_toolbar.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_excel_main.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_excel_main.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zs_toolbar_search_selector.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\zs_toolbar_search_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round_excel_main.xml.flat",
-        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_round_excel_main.xml"
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_powerpoint_slides_toolbar.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_powerpoint_slides_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_sheet_tab_text.xml.flat",
@@ -1472,6 +1484,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\background_col_shape_three.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_close.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_close.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_r4_bg.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\r4_bg.xml"
     },
@@ -1620,6 +1636,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_templates_header_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_underline.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_underline.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_align_text_full.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_align_text_full.xml"
     },
@@ -1642,6 +1662,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_zui_ic_status_sent.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\zui_ic_status_sent.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_bold_selected.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_bold_selected.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -1864,6 +1888,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_custom_save_support.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_keyboard_edit.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_keyboard_edit.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_delete.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_delete.xml"
     },
@@ -1942,6 +1970,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_bg_item_nav.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\custom_bg_item_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_italic_selected.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_italic_selected.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_formula_financial.xml.flat",
@@ -2026,6 +2058,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_fake_full_ads.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\dialog_fake_full_ads.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_italic.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_italic.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_donate_normal.png.flat",
@@ -2252,6 +2288,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_left.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_left.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -2378,6 +2418,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_saved_document_2.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_saved_document_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drop_down.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\drop_down.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_image_folder.xml.flat",
@@ -2628,6 +2672,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_explorer_template_selector.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_right.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_right.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_insert_row_below.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_insert_row_below.xml"
     },
@@ -2814,6 +2862,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_lock.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_search.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_search.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_delete_highlight.xml.flat",
@@ -3032,6 +3084,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_sheet_tab_selected.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_redo.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_redo.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_draw.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_draw.xml"
     },
@@ -3176,6 +3232,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\zui_cell_agent_response_label.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_bold.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\bg_bold.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_align_bottom_left.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_align_bottom_left.xml"
     },
@@ -3204,8 +3264,16 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storage_tab.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cancel_text.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_cancel_text.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sign_resize.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\sign_resize.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_format_color_text.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_format_color_text.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sodk_icon_print.png.flat",
@@ -3324,6 +3392,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\boxsdk_list_item_account.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_paste.png.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\icon_paste.png"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_doc_pages_toolbar.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\sodk_editor_doc_pages_toolbar.xml"
     },
@@ -3350,6 +3422,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\animator_popup_out_right.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\animator\\popup_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_italic.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_italic.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_toggle_on.xml.flat",
@@ -3438,6 +3514,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_editor_icon_save_pdf.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_editor_icon_save_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_drop_down2.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_drop_down2.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
@@ -3800,6 +3880,10 @@
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\zui_cell_articles_response.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_underline.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_underline.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_img_popup_color.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable-xhdpi\\img_popup_color.png"
     },
@@ -3958,6 +4042,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_save.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\ic_icon_save.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_formula_category_view.xml.flat",
@@ -4166,6 +4254,10 @@
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_reader_tab.png.flat",
         "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_reader_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sodk_ic_icon_underline_selected.xml.flat",
+        "source": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\src\\main\\res\\drawable\\sodk_ic_icon_underline_selected.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Documents\\DocxReader\\app\\build\\intermediates\\res\\merged\\debug\\layout_sodk_editor_line_width_dialog.xml.flat",
